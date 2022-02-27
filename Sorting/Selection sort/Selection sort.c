@@ -29,10 +29,10 @@ void printArray(int array[], int ukuran){
 
 int main(){
 	int array[]={23, 67, 89, 5, 45, 20, 15, 27};
-	int n=sizeof(array)/sizeof(array[0]);
-	selectionSort(array, n);
+	int data=sizeof(array)/sizeof(array[0]);
+	selectionSort(array, data);
 	printf("Hasil array selection sort: \n");
-	printArray(array, n);
+	printArray(array, data);
 	return 0;
 }
 
