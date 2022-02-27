@@ -2,11 +2,11 @@
 #include <math.h>
 
 void insertionSort(int array[], int data){
-	int i, key, j;
+	int i, k, j;
 	for(i=1;i<data;i++){
-		key=array[i];
+		k=array[i];
 		j=i-1;
-		while(j>=0&&array[j]>key){
+		while(j>=0&&array[j]>k){
 			array[j+1]=array[j];
 			j=j-1;
 		}
