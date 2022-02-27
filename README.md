@@ -1,5 +1,5 @@
 # Sorting algorithms
-[Sorting types](https://github.com/qty-hub/SEARCHING/tree/main/Searching)<br/>
+[Sorting](https://github.com/qty-hub/Sorting-algorithm/tree/main/Sorting)<br/>
 [1. Bubble sort](https://github.com/qty-hub/SEARCHING/tree/main/Searching/Sequential)<br/>
 Placeholder<br/>
 [2. Selection sort](https://github.com/qty-hub/SEARCHING/tree/main/Searching/Binary)<br/>
