@@ -35,4 +35,3 @@ int main(){
 	printArray(array, data);
 	return 0;
 }
-
