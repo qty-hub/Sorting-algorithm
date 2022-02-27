@@ -1,4 +1,3 @@
-// C program for implementation of selection sort
 #include <stdio.h>
 
 void swap(int *a, int *b){
@@ -9,21 +8,17 @@ void swap(int *a, int *b){
 
 void selectionSort(int array[], int data){
 	int i, j, min_index;
-	// One by one move boundary of unsorted subarray
 	for(i=0;i<data-1;i++){
-		// Find the minimum element in unsorted array
 		min_index=i;
 		for(j=i+1;j<data;j++){
 			if(array[j]<array[min_index]){
 				min_index=j;
 			}
 		}
-		// Swap the found minimum element with the first element
 		swap(&array[min_index], &array[i]);
 	}
 }
 
-/* Function to print an array */
 void printArray(int array[], int ukuran){
 	int i;
 	for(i=0;i<ukuran;i++){
@@ -32,7 +27,6 @@ void printArray(int array[], int ukuran){
 	}
 }
 
-// Driver program to test above functions
 int main(){
 	int array[]={23, 67, 89, 5, 45, 20, 15, 27};
 	int n=sizeof(array)/sizeof(array[0]);
