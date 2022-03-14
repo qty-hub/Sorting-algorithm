@@ -10,7 +10,7 @@ void insertionSort(int array[], int data){
 			array[j+1]=array[j];
 			j=j-1;
 		}
-		array[j+1]=key;
+		array[j+1]=k;
 	}
 }
 
